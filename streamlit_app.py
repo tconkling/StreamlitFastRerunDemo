@@ -2,7 +2,7 @@ import time
 
 import streamlit as st
 
-st.title("SLOW Streamlit reruns")
+st.title("FAST Streamlit reruns!")
 
 selected_page = st.radio("Page", ["Foo", "Bar", "Baz"])
 
