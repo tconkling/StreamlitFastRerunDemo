@@ -2,6 +2,8 @@ import time
 
 import streamlit as st
 
+st.set_page_config(page_title="FAST reruns")
+
 st.title("FAST Streamlit reruns!")
 
 selected_page = st.radio("Page", ["Foo", "Bar", "Baz"])
